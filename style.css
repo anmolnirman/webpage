@@ -1,0 +1,58 @@
+/* Same basic styling as before */
+
+/* Additional styling for advanced design */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: #f9f9f9;
+    padding: 3em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.habit-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label, input, button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+}
+
+input[type="number"] {
+    font-size: 16px;
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #56ccf2;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.habit-stats {
+    margin-top: 2em;
+}
+
+.habit-stats p {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2em;
+    }
+}
